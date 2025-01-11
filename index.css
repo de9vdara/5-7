@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0B0B0E;
+}
+
+.mainFrameWrapper {
+    margin-top: 112px;
+    display: flex;
+    align-items: center;
+    gap: 112px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mainHeaderWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0px 14px 0px;
+    border-bottom: 1px solid #003004;
+}
+
+.mainHeaderFrame {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.aiLayer {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aiLayerText {
+    display: flex;
+    max-width: 564px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.aiLayerText h2 {
+    color: #FFF;
+    font-size: 56px;
+}
+
+.aiLayerText p {
+    color: #7A7A7A;
+    font-size: 16px;
+}
+
+.createAi {
+    border-radius: 24px;
+    background: #FF371A;
+    padding: 12px 24px;
+    color: #FFF;
+    font-size: 16px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.getAAI {
+    border-radius: 24px;
+    border: 1px solid #2F2C33;
+    color: #FFF;
+    font-size: 16px;
+    background: #0B0B0E;
+    padding: 12px 24px;
+    max-width: 200px;
+    width: 100%;
+}
+.buttonsFrame{
+    display: flex;
+align-items: flex-start;
+gap: 16px;
+max-width: 416px;
+width: 100%;
+}
+.logoImgs{
+    display: flex;
+align-items: flex-start;
+gap: 16px;
+}
+.agentsFrame{
+    display: flex;
+padding: 16px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 24px;
+align-self: stretch;
+border-radius: 12px;
+background: #191919;
+}
+.creatingAi{
+    display: flex;
+max-width: 1060px;
+width: 100%;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+}
+.creatingAi h1{
+    color: #FFF;
+font-size: 64px;
+}
+.agentsFrameText h3{
+    color: #FFF;
+font-size: 20px;
+}
+.agentsFrameText p{
+    color: #797979;
+font-size: 16px;
+}
+.agentsFrameText{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+.agentsImg{
+    width: 100%;
+}
